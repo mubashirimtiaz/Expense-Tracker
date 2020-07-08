@@ -28,7 +28,7 @@ const IncomeExpenses = () => {
         </p>
       </div>
 
-      <div>
+      <div className="divider">
         <h4 className="text-danger">Expense</h4>
         <p style={{ fontSize: "1.2rem" }} className="text-muted">
           <span style={{ fontSize: "1.4rem" }} className="text-dark">

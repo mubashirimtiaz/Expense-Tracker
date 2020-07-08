@@ -91,3 +91,17 @@ form .btn {
   font-size: 1.1rem;
   margin-top: 5px;
 }
+.divider {
+  position: relative;
+}
+.divider::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -80%;
+  top: 0;
+  padding: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #aaaaaa;
+}
