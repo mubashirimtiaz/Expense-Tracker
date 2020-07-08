@@ -12,8 +12,8 @@ const TransactionsList = ({ transaction }) => {
       <li
         className={
           transaction.amount < 0
-            ? "TransactionList-list minus"
-            : "TransactionList-list plus"
+            ? "TransactionList-list minus bg-white"
+            : "TransactionList-list plus bg-white"
         }
       >
         <span>{transaction.text}</span>
