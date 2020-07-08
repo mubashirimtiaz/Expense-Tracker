@@ -15,7 +15,7 @@ const IncomeExpenses = () => {
     }, 0);
   return (
     <div
-      className="IncomeExpenses d-flex text-center py-2 mx-2"
+      className="IncomeExpenses d-flex text-center py-2 mx-2 bg-white"
       style={{ justifyContent: "space-around", alignItems: "center" }}
     >
       <div>

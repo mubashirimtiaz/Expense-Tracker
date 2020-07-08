@@ -5,7 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
 }
+.App {
+  max-width: 500px;
+  margin: 0px auto;
+}
+
 .TransactionList-list {
   display: flex;
   justify-content: space-between;
