@@ -13,7 +13,13 @@ const Balance = () => {
       <h3 className="text-secondary">YOUR BALANCE</h3>
       <p className="display-4">
         <span className="display-3">$</span>
-        {totalAmount}
+        {totalAmount}{" "}
+        <p
+          className="text-danger font-weight-bold"
+          style={{ fontSize: "1rem" }}
+        >
+          {totalAmount < 0 ? "You have become a debtor 😅" : ""}
+        </p>
       </p>
     </div>
   );
