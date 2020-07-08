@@ -22,7 +22,7 @@ const NewTransaction = () => {
       <h4 className="mt-3 text-secondary mx-2">New Transaction</h4>
 
       <form onSubmit={handleSubmit}>
-        <label htmlFor="text">Text</label>
+        <label htmlFor="text">Description</label>
         <input
           type="text"
           id="text"
@@ -30,6 +30,7 @@ const NewTransaction = () => {
           value={text}
           onChange={handleTextChange}
           required
+          placeholder="Detail of Transaction"
         />
         <label htmlFor="amount">
           Amount{" "}
@@ -44,6 +45,7 @@ const NewTransaction = () => {
           value={amount}
           onChange={handleAmountChange}
           required
+          placeholder="Doller value of Transaction"
         />
         <button className="btn btn-info">Add Transaction</button>
       </form>
