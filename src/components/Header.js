@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <h1
         className="text-center my-4"
-        style={{ textShadow: "1px 1px 2px #000", fontSize: "1.3rem" }}
+        style={{ textShadow: "1px 1px 2px #000", fontSize: "2.2rem" }}
       >
         Expense Tracker
       </h1>
