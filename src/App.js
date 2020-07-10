@@ -5,7 +5,7 @@ import IncomeExpenses from "./components/IncomeExpenses";
 import Transactions from "./components/Transactions";
 import NewTransaction from "./components/NewTransaction";
 import ExpenseContextProvider from "./contexts/ExpenseContext";
-import Footer from "../../covid19-tracker/src/components/Footer/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
         <IncomeExpenses />
         <Transactions />
         <NewTransaction />
+        <Footer />
       </ExpenseContextProvider>
-      <Footer />
     </div>
   );
 }
